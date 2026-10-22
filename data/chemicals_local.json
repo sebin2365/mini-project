@@ -1,0 +1,25 @@
+{
+  "_설명": "PubChem에 접속할 수 없을 때 쓰는 실습용 요약 데이터(로컬 캐시)입니다. 실제 작업에는 공식 MSDS를 확인하세요. names_ko는 한글 질문에서 물질명을 찾는 데에도 쓰입니다.",
+  "chemicals": [
+    {"name_en": "toluene", "names_ko": ["톨루엔", "톨루올"], "cas": "108-88-3", "formula": "C7H8",
+     "signal": "위험", "hazards": ["H225", "H304", "H315", "H336", "H361d", "H373"], "flash_point": "4 °C"},
+    {"name_en": "benzene", "names_ko": ["벤젠"], "cas": "71-43-2", "formula": "C6H6",
+     "signal": "위험", "hazards": ["H225", "H304", "H315", "H319", "H340", "H350", "H372"], "flash_point": "-11 °C"},
+    {"name_en": "hydrochloric acid", "names_ko": ["염산", "염화수소"], "cas": "7647-01-0", "formula": "HCl",
+     "signal": "위험", "hazards": ["H290", "H314", "H335"], "flash_point": null},
+    {"name_en": "sulfuric acid", "names_ko": ["황산"], "cas": "7664-93-9", "formula": "H2SO4",
+     "signal": "위험", "hazards": ["H290", "H314"], "flash_point": null},
+    {"name_en": "sodium hydroxide", "names_ko": ["수산화나트륨", "가성소다", "양잿물"], "cas": "1310-73-2", "formula": "NaOH",
+     "signal": "위험", "hazards": ["H290", "H314"], "flash_point": null},
+    {"name_en": "ammonia", "names_ko": ["암모니아"], "cas": "7664-41-7", "formula": "NH3",
+     "signal": "위험", "hazards": ["H221", "H280", "H314", "H331", "H400"], "flash_point": null},
+    {"name_en": "hydrogen sulfide", "names_ko": ["황화수소"], "cas": "7783-06-4", "formula": "H2S",
+     "signal": "위험", "hazards": ["H220", "H280", "H330", "H335", "H400"], "flash_point": null},
+    {"name_en": "methanol", "names_ko": ["메탄올", "메틸알코올", "메틸 알코올"], "cas": "67-56-1", "formula": "CH4O",
+     "signal": "위험", "hazards": ["H225", "H301", "H311", "H331", "H370"], "flash_point": "11 °C"},
+    {"name_en": "ethanol", "names_ko": ["에탄올", "에틸알코올", "에틸 알코올"], "cas": "64-17-5", "formula": "C2H6O",
+     "signal": "위험", "hazards": ["H225", "H319"], "flash_point": "13 °C"},
+    {"name_en": "acetone", "names_ko": ["아세톤"], "cas": "67-64-1", "formula": "C3H6O",
+     "signal": "위험", "hazards": ["H225", "H319", "H336"], "flash_point": "-20 °C"}
+  ]
+}
